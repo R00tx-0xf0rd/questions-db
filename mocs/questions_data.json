@@ -1,0 +1,36 @@
+[
+  {
+    "theme": "Python",
+    "questions": [
+      {
+        "question": "Что такое декоратор в Python?",
+        "answers": [
+          {"text": "Функция, которая изменяет поведение другой функции", "is_true": true},
+          {"text": "Специальный тип данных", "is_true": false},
+          {"text": "Класс для создания GUI", "is_true": false}
+        ]
+      },
+      {
+        "question": "Как создать асинхронную функцию?",
+        "answers": [
+          {"text": "Использовать ключевое слово async def", "is_true": true},
+          {"text": "Использовать декоратор @async", "is_true": false},
+          {"text": "Наследоваться от AsyncFunction", "is_true": false}
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "SQLAlchemy",
+    "questions": [
+      {
+        "question": "Для чего используется DeclarativeBase?",
+        "answers": [
+          {"text": "Для объявления моделей", "is_true": true},
+          {"text": "Для подключения к БД", "is_true": false},
+          {"text": "Для миграций", "is_true": false}
+        ]
+      }
+    ]
+  }
+]
